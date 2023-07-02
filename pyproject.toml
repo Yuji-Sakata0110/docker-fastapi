@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fastapi_sample"
+version = "0.1.0"
+description = "fastapi sample"
+authors = ["yujis <yuji.sakata0110@gmail.com>"]
+license = "yujis"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-dotenv = "^1.0.0"
+fastapi = "^0.99.0"
+uvicorn = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
